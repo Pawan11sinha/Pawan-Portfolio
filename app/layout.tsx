@@ -22,7 +22,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Pawan Kumar Sinha - Full Stack Developer | Portfolio",
   description:
-    "A 22 year-old Full Stack Developer from India who loves building efficient, scalable, and intuitive applications. Currently working as Founding Engineer at a stealth startup. Available for opportunities.",
+   "A 22 year-old developer from India who loves building efficient, scalable, and intuitive applications.With over a year of hands-on experience, I work at ConviSaaS Inc.as a User Story Engineer, focusing on building scalable,user-centric SaaS products.",
   keywords: [
     "Full Stack Developer",
     "React Developer",
@@ -83,7 +83,7 @@ export const metadata: Metadata = {
     siteName: "Pawan Kumar Sinha Portfolio",
     title: "Pawan Kumar Sinha- Full Stack Developer",
     description:
-      "A 20 year-old Full Stack Developer from India who loves building efficient, scalable, and intuitive applications. Currently working as Founding Engineer at a stealth startup.",
+        "A 22 year-old developer from India who loves building efficient, scalable, and intuitive applications.With over a year of hands-on experience, I work at ConviSaaS Inc.as a User Story Engineer, focusing on building scalable,user-centric SaaS products.",
     images: [
       {
         url: "https://iili.io/KB9qfG1.png",
@@ -99,7 +99,7 @@ export const metadata: Metadata = {
     creator: "@sinhakrpawan11",
     title: "Pawan Kumar Sinha - Full Stack Developer",
     description:
-      "A 20 year-old Full Stack Developer from India who loves building efficient, scalable, and intuitive applications. Available for opportunities.",
+         "A 22 year-old developer from India who loves building efficient, scalable, and intuitive applications.With over a year of hands-on experience, I work at ConviSaaS Inc.as a User Story Engineer, focusing on building scalable,user-centric SaaS products.",
     images: ["https://iili.io/KB9qfG1.png"],
   },
   icons: {

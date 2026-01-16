@@ -16,11 +16,11 @@ export function Dock() {
       label: "Twitter",
       href: "https://twitter.com/sinhakrpawan11",
     },
-    { icon: Github, label: "GitHub", href: "https://github.com/sinhakrpawan11" },
+    { icon: Github, label: "GitHub", href: "https://github.com/Pawan11sinha" },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://www.linkedin.com/in/sinhakrpawan11",
+      href: "https://www.linkedin.com/in/pawan-kumar-sinha-0b789b390/",
     },
     { icon: Mail, label: "Email", href: "mailto:sinhakrpawan11@gmail.com" },
   ];
