@@ -132,7 +132,7 @@ export const metadata: Metadata = {
     "og:url": "https://pawansinha.dev",
     "og:title": "Pawan Kumar Sinha - Full Stack Developer",
     "og:description":
-      "A 20 year-old Full Stack Developer from India who loves building efficient, scalable, and intuitive applications. Currently working as Founding Engineer at a stealth startup.",
+       "A 22 year-old developer from India who loves building efficient, scalable, and intuitive applications.With over a year of hands-on experience, I work at ConviSaaS Inc.as a User Story Engineer, focusing on building scalable,user-centric SaaS products.",
     "og:image": "https://iili.io/KB9qfG1.png",
     "twitter:image:alt": "Pawan Kumar Sinha- Full Stack Developer Portfolio",
     "twitter:domain": "pawansinha.dev",
@@ -140,7 +140,7 @@ export const metadata: Metadata = {
     "whatsapp:image": "https://iili.io/KB9qfG1.png",
     "whatsapp:title": "Pawan Kumar Sinha - Full Stack Developer",
     "whatsapp:description":
-      "A 20 year-old Full Stack Developer from India who loves building efficient, scalable, and intuitive applications.",
+      "A 22 year-old Full Stack Developer from India who loves building efficient, scalable, and intuitive applications.",
   },
 };
 
