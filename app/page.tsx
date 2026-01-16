@@ -30,7 +30,7 @@ export default function Page() {
             href="#"
             className="font-semibold text-neutral-900 dark:text-neutral-50"
           >
-            bhanu.
+            Pawan.
           </Link>
           <div className="flex items-center gap-2 sm:gap-4">
             <a
@@ -84,12 +84,12 @@ export default function Page() {
                     <div className="h-16 w-16 ring-2 ring-neutral-200 dark:ring-neutral-900 rounded-full overflow-hidden">
                       <img
                         src="/facedemo.jpeg"
-                        alt="Bhanu Pratap Singh"
+                        alt="Pawan Kumar Sinha"
                         className="h-full w-full object-cover scale-115 -translate-x-0.5"
                       />
                     </div>
                     <h1 className="text-2xl md:text-3xl font-medium tracking-tight text-neutral-900 dark:text-neutral-50">
-                      Bhanu Pratap Singh
+                      Pawan Kumar Sinha
                     </h1>
                   </div>
                 </SlideInLeft>
@@ -124,7 +124,7 @@ export default function Page() {
                       className="h-6 w-20 rounded-sm bg-neutral-900 px-4 text-white shadow-sm hover:bg-neutral-900/90 dark:bg-neutral-100 dark:text-neutral-900 dark:hover:bg-neutral-200"
                     >
                       <a
-                        href="https://drive.google.com/file/d/1m-0VhgvIMA1F-nX1upAT-HbgcDE52LQw/view"
+                        href="https://drive.google.com/file/d/1Li9M7gSHHd_8k0K_hGzYwpCBNmXNqjz6/view"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="View Resume"
@@ -139,7 +139,7 @@ export default function Page() {
                       className="h-6 w-6 rounded-sm border border-neutral-200 p-0 text-neutral-700 hover:bg-neutral-50 dark:border-neutral-800 dark:text-neutral-300 dark:hover:bg-neutral-900"
                     >
                       <a
-                        href="mailto:bhanudahiya8@gmail.com"
+                        href="mailto:sinhakrpawan11@gmail.com"
                         aria-label="Send email"
                       >
                         <Mail className="h-4 w-4" />
@@ -152,7 +152,7 @@ export default function Page() {
                       className="h-6 w-6 rounded-sm border border-neutral-200 p-0 text-neutral-700 hover:bg-neutral-50 dark:border-neutral-800 dark:text-neutral-300 dark:hover:bg-neutral-900"
                     >
                       <a
-                        href="https://twitter.com/iBhanuDahiya"
+                        href="https://twitter.com/sinhakrpawan11"
                         target="_blank"
                         rel="noreferrer"
                         aria-label="Open Twitter"
@@ -167,7 +167,7 @@ export default function Page() {
                       className="h-6 w-6 rounded-sm border border-neutral-200 p-0 text-neutral-700 hover:bg-neutral-50 dark:border-neutral-800 dark:text-neutral-300 dark:hover:bg-neutral-900"
                     >
                       <a
-                        href="https://github.com/bhanudahiyaa"
+                        href="https://github.com/Pawan11sinha"
                         target="_blank"
                         rel="noreferrer"
                         aria-label="Open GitHub"
@@ -182,7 +182,7 @@ export default function Page() {
                       className="h-6 w-6 rounded-sm border border-neutral-200 p-0 text-neutral-700 hover:bg-neutral-50 dark:border-neutral-800 dark:text-neutral-300 dark:hover:bg-neutral-900"
                     >
                       <a
-                        href="https://www.linkedin.com/in/bhanupratap1/"
+                        href="https://www.linkedin.com/in/pawan-kumar-sinha-0b789b390/"
                         target="_blank"
                         rel="noreferrer"
                         aria-label="Open LinkedIn"
@@ -199,13 +199,13 @@ export default function Page() {
             <FadeInText delay={0.5}>
               <section className="mt-4 m-2 justify-center items-center text-[13px] leading-6 text-neutral-600 dark:text-neutral-300">
                 <p>
-                  A 20 year-old developer from India who loves building{" "}
+                  A 22 year-old developer from India who loves building{" "}
                   <span className="rounded bg-yellow-200 px-1.5 py-0.5 text-[12px] font-medium text-neutral-900">
                     efficient, scalable, and intuitive applications.
                   </span>{" "}
-                  With over a year of hands-on experience, I previously worked
-                  at a US-based startup and am now building a stealth startup as
-                  a Founding engineer.
+                  With over a year of hands-on experience, I work at ConviSaaS Inc. 
+                  as a User Story Engineer, focusing on building scalable, 
+                  user-centric SaaS products.
                 </p>
               </section>
             </FadeInText>
@@ -219,26 +219,28 @@ export default function Page() {
                   </h3>
                 </FadeInText>
                 <div className="mt-3 space-y-3">
-                  <SlideInLeft delay={0.1}>
+                 <SlideInLeft delay={0.1}>
                     <WorkItem
                       icon="shield"
-                      company="Stealth"
-                      role="Founding Engineer"
-                      period="August 2025 – Present"
-                      summary="Built the backend from scratch and architected a scalable, production ready platform, implementing robust development workflows and optimized system architecture."
-                      logoUrl="/stealth.jpeg"
+                      company="ConviSaaS Inc."
+                      role="User Story Engineer"
+                      period="January 2026 – Present"
+                     summary="Responsible for the development, maintenance, and continuous improvement of software products, implementing user stories and delivering technical solutions for ConviSaaS Inc. and its affiliated SaaS platforms."
+                    logoUrl="https://qyupe.com/Logo.svg"
                     />
                   </SlideInLeft>
-                  <SlideInLeft delay={0.1}>
-                    <WorkItem
-                      icon="building"
-                      company="FirstContact"
-                      role="Backend Intern"
-                      period="April 2025 – June 2025"
-                      summary="Maintained backend for dynamic CMS content and workflows, fixed server side bugs, and optimized data handling to reduce downtime."
-                      logoUrl="/firstcontact.jpeg"
-                    />
-                  </SlideInLeft>
+
+                  <SlideInLeft delay={0.15}>
+                  <WorkItem
+                    icon="building"
+                    company="CantiLever.in"
+                    role="Artificial Intelligence Intern"
+                    period="June 2025 – August 2025"
+                    summary="Contributed to the design and implementation of AI-driven solutions, supporting model development, experimentation, and integration of intelligent features into production workflows."
+                    logoUrl="https://cantilever.in/assets/images/logo.png"
+                  />
+                </SlideInLeft>
+
                 </div>
               </section>
             </SlideUp>
@@ -254,50 +256,52 @@ export default function Page() {
                 <div className="space-y-2">
                   <SlideInLeft delay={0.1}>
                     <ProjectListItem
-                      title="Market Pulse"
+                      title="Study buddy"
                       links={[
                         {
                           label: "live preview ↗",
-                          href: "https://call2-codecore4.vercel.app/",
+                          href: "https://study-buddy-jet-tau.vercel.app/",
                         },
                         {
                           label: "github ↗",
-                          href: "https://github.com/Bhanudahiyaa/Call2Code",
+                          href: "https://github.com/Pawan11sinha/StudyBuddy",
                         },
                       ]}
                       bullets={[
-                        "Built in 24 hours at Call2Code Hackathon (MUJ) and selected as a finalist among 100+ teams.",
-                        "Developed 12+ features: real-time charts, multilingual support (English, Hindi, Spanish),voice navigation using Web Speech API.",
-                        "Integrated APIs for real-time financial analytics and sentiment analysis across 50+ tickers.",
+                        "Architected and built a scalable full-stack EdTech platform supporting course enrollment, instructor-led content, and student doubt resolution.",
+                        "Designed real-time doubt discussion workflows and instructor dashboards for content management and learner engagement.",
+                        "Integrated secure payment gateway, multilingual support (English, Hindi, Spanish), and voice navigation using Web Speech API.",
                       ]}
-                      tags={["React", "TypeScript", "TailwindCSS", "Supabase"]}
+                      tags={["React", "Brevis", "TailwindCSS", "Web Speech API"]}
                     />
                   </SlideInLeft>
                   <SlideInRight delay={0.1}>
-                    <ProjectListItem
-                      title="SQL QueryPilot"
-                      links={[
-                        {
-                          label: "live preview ↗",
-                          href: "https://sql-querypilot.streamlit.app/",
-                        },
-                        {
-                          label: "github ↗",
-                          href: "https://github.com/Bhanudahiyaa/SQL-QueryPilot",
-                        },
-                      ]}
-                      bullets={[
-                        "Converts natural language into SQL, reducing query time by 90% and improving accessibility non-tech users.",
-                        "Editable SQL previews with live execution on 20+ databases.",
-                        "Deployed on Streamlit Cloud with zero‑downtime CI/CD.",
-                      ]}
-                      tags={[
-                        "Python",
-                        "Streamlit",
-                        "SQLite",
-                        "Google Gemini Pro",
-                      ]}
-                    />
+                   <ProjectListItem
+                    title="Advanced NLP Chatbot"
+                    links={[
+                      {
+                        label: "live preview ↗",
+                        href: "", 
+                      },
+                      {
+                        label: "github ↗",
+                        href: "https://github.com/Pawan11sinha/ChatBot/tree/main/CHATBOT_WITH_NLP",
+                      },
+                    ]}
+                    bullets={[
+                      "Built an AI-powered conversational chatbot using Transformer-based models for coherent, real-time dialogue generation.",
+                      "Implemented real-time sentiment analysis, response quality metrics, and model diagnostics to evaluate NLP performance.",
+                      "Containerized and deployed the application using Docker and Streamlit, enabling scalable and reproducible ML workflows.",
+                    ]}
+                    tags={[
+                      "Python",
+                      "NLP",
+                      "Hugging Face Transformers",
+                      "Streamlit",
+                      "Docker",
+                    ]}
+                  />
+
                   </SlideInRight>
                   <SlideInLeft delay={0.2}>
                     <ProjectListItem
@@ -305,11 +309,11 @@ export default function Page() {
                       links={[
                         {
                           label: "live preview ↗",
-                          href: "https://ledger-uwu-znsd.vercel.app/",
+                         href:""
                         },
                         {
                           label: "github ↗",
-                          href: "https://github.com/Bhanudahiyaa/Ledger-uwu",
+                          href: "",
                         },
                       ]}
                       bullets={[
@@ -330,7 +334,7 @@ export default function Page() {
                 <FadeInText delay={0.2}>
                   <div className="mt-3 flex justify-center">
                     <a
-                      href="https://github.com/Bhanudahiyaa"
+                      href="https://github.com/Pawan11sinha"
                       className="inline-flex items-center gap-1 rounded-sm border border-neutral-200 px-3 py-1.5 text-sm text-neutral-700 hover:bg-neutral-50 dark:border-neutral-800 dark:text-neutral-300 dark:hover:bg-neutral-900"
                     >
                       View all projects →
@@ -351,18 +355,18 @@ export default function Page() {
                   <SlideInLeft delay={0.1}>
                     <li>
                       <AchievementItem
-                        title="Finalist – Call2Code Hackathon, MUJ"
-                        date="April 2025"
-                        description="AI‑powered stock market dashboard with multilingual voice commands, real‑time analytics, and sentiment analysis. Selected as a finalist among 100+ teams."
+                        title="AWS PartyRock — 2nd Place"
+                        date="june 2025"
+                        description="Built a real-time collaborative coding platform using AWS PartyRock, enabling multiple users to code simultaneously with live updates and cloud-backed scalability. Secured 2nd rank among competing teams."
                       />
                     </li>
                   </SlideInLeft>
                   <SlideInRight delay={0.1}>
                     <li>
                       <AchievementItem
-                        title="Semi‑Finalist – BitBash, NIT Kurukshetra"
-                        date="March 2025"
-                        description="Developed a real‑world solution under 24‑hour constraints; recognized among the top‑performing teams."
+                        title="Pragati AI — Shortlisted"
+                        date="july 2025"
+                        description="Shortlisted for developing an AI-driven solution focused on social impact, addressing real-world challenges through responsible and scalable artificial intelligence."
                       />
                     </li>
                   </SlideInRight>
@@ -390,11 +394,11 @@ export default function Page() {
                       <AchievementItem
                         title="Maharaja Agrasen Institute of Technology"
                         date="2023 – 2027"
-                        description="B.Tech in ECE"
+                        description="B.Tech in CST"
                       />
                     </li>
                   </SlideInLeft>
-                  <SlideInRight delay={0.1}>
+                  {/* <SlideInRight delay={0.1}>
                     <li>
                       <AchievementItem
                         title="Jankidas Kapur Public School"
@@ -402,7 +406,7 @@ export default function Page() {
                         description="Class XII (CBSE)"
                       />
                     </li>
-                  </SlideInRight>
+                  </SlideInRight> */}
                 </ul>
               </section>
             </SlideUp>
@@ -432,7 +436,7 @@ export default function Page() {
                       className="h-9 rounded-md bg-neutral-900 px-4 text-white shadow-sm hover:bg-neutral-900/90 dark:bg-neutral-100 dark:text-neutral-900 dark:hover:bg-neutral-200"
                     >
                       <a
-                        href="mailto:bhanudahiya8@gmail.com"
+                        href="mailto:sinhakrpawan11@gmail.com"
                         aria-label="Get in touch via email"
                       >
                         <span className="inline-flex items-center gap-2">
@@ -448,7 +452,7 @@ export default function Page() {
                 <SlideInRight delay={0.1}>
                   <div className="mt-4 flex items-center justify-center gap-2 sm:gap-4 text-neutral-600 dark:text-neutral-300">
                     <a
-                      href="https://twitter.com/iBhanuDahiya"
+                      href="https://twitter.com/sinhakrpawan11"
                       target="_blank"
                       rel="noreferrer"
                       aria-label="Twitter"
@@ -457,7 +461,7 @@ export default function Page() {
                       <Twitter className="h-4 w-4" />
                     </a>
                     <a
-                      href="https://github.com/bhanudahiyaa"
+                      href="https://github.com/Pawan11sinha"
                       target="_blank"
                       rel="noreferrer"
                       aria-label="GitHub"
@@ -466,7 +470,7 @@ export default function Page() {
                       <Github className="h-4 w-4" />
                     </a>
                     <a
-                      href="https://www.linkedin.com/in/bhanupratap1/"
+                      href="https://www.linkedin.com/in/pawan-kumar-sinha-0b789b390/"
                       aria-label="Open LinkedIn"
                       className="inline-flex h-8 w-8 items-center justify-center rounded-md border border-neutral-200 hover:bg-neutral-50 dark:border-neutral-800 dark:hover:bg-neutral-900"
                     >
@@ -493,7 +497,7 @@ export default function Page() {
         </article>
         <div className="mt-8 flex justify-center rounded-xl py-2  border border-neutral-200 bg-white shadow-sm dark:border-neutral-800 dark:bg-neutral-950 ">
           <p className="text-xs text-neutral-500 dark:text-neutral-400 section-lines p-2">
-            <span className="italic">Never forget, why you started</span> <span aria-hidden> ❤️</span>
+            <span className="italic">Remember why you began</span> <span aria-hidden> ❤️</span>
           </p>
         </div>{" "}
       </div>

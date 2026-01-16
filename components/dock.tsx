@@ -14,15 +14,15 @@ export function Dock() {
     {
       icon: Twitter,
       label: "Twitter",
-      href: "https://twitter.com/iBhanuDahiya",
+      href: "https://twitter.com/sinhakrpawan11",
     },
-    { icon: Github, label: "GitHub", href: "https://github.com/bhanudahiyaa" },
+    { icon: Github, label: "GitHub", href: "https://github.com/sinhakrpawan11" },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://www.linkedin.com/in/bhanupratap1",
+      href: "https://www.linkedin.com/in/sinhakrpawan11",
     },
-    { icon: Mail, label: "Email", href: "mailto:bhanudahiya8@gmail.com" },
+    { icon: Mail, label: "Email", href: "mailto:sinhakrpawan11@gmail.com" },
   ];
   return (
     <div className="pointer-events-auto fixed inset-x-0 bottom-6 z-50 flex justify-center">

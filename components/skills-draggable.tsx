@@ -5,7 +5,7 @@ import type React from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import {
-  SiPython,
+  // SiPython,
   SiJavascript,
   SiTypescript,
   SiReact,
@@ -23,16 +23,16 @@ import {
   SiGithub,
   SiDocker,
   SiSocketdotio,
-  SiAmazonwebservices,
-  SiNeo4J,
-  SiStreamlit,
+  // SiAmazonwebservices,
+  // SiNeo4J,
+  // SiStreamlit,
   SiPostman,
   SiClerk,
   SiShadcnui,
-  SiRedis,
+  // SiRedis,
   SiPrisma,
   SiGraphql,
-  SiWebpack,
+  // SiWebpack,
   SiFigma,
 } from "react-icons/si";
 import { FaTwitter } from "react-icons/fa";
@@ -68,7 +68,7 @@ function SkillPill({ label, icon }: Skill) {
 
 export function SkillsDraggable() {
   const skills: Skill[] = [
-    { label: "Python", icon: <SiPython className="h-3 w-3" /> },
+    // { label: "Python", icon: <SiPython className="h-3 w-3" /> },
     { label: "JavaScript", icon: <SiJavascript className="h-3 w-3" /> },
     { label: "TypeScript", icon: <SiTypescript className="h-3 w-3" /> },
     { label: "React.js", icon: <SiReact className="h-3 w-3" /> },
@@ -86,18 +86,18 @@ export function SkillsDraggable() {
     { label: "GitHub", icon: <SiGithub className="h-3 w-3" /> },
     { label: "Docker", icon: <SiDocker className="h-3 w-3" /> },
     { label: "Socket.io", icon: <SiSocketdotio className="h-3 w-3" /> },
-    { label: "AWS", icon: <SiAmazonwebservices className="h-3 w-3" /> },
-    { label: "Neo4j", icon: <SiNeo4J className="h-3 w-3" /> },
-    { label: "Streamlit", icon: <SiStreamlit className="h-3 w-3" /> },
+    // { label: "AWS", icon: <SiAmazonwebservices className="h-3 w-3" /> },
+    // { label: "Neo4j", icon: <SiNeo4J className="h-3 w-3" /> },
+    // { label: "Streamlit", icon: <SiStreamlit className="h-3 w-3" /> },
     { label: "Postman API", icon: <SiPostman className="h-3 w-3" /> },
     { label: "Clerk", icon: <SiClerk className="h-3 w-3" /> },
     { label: "Shadcn UI", icon: <SiShadcnui className="h-3 w-3" /> },
-    { label: "Redis", icon: <SiRedis className="h-3 w-3" /> },
+    // { label: "Redis", icon: <SiRedis className="h-3 w-3" /> },
     { label: "Prisma", icon: <SiPrisma className="h-3 w-3" /> },
     { label: "GraphQL", icon: <SiGraphql className="h-3 w-3" /> },
-    { label: "Webpack", icon: <SiWebpack className="h-3 w-3" /> },
+    // { label: "Webpack", icon: <SiWebpack className="h-3 w-3" /> },
     { label: "Figma", icon: <SiFigma className="h-3 w-3" /> },
-    { label: "Shitposter", icon: <FaTwitter className="h-3 w-3" /> },
+    // { label: "Shitposter", icon: <FaTwitter className="h-3 w-3" /> },
   ];
 
   return (

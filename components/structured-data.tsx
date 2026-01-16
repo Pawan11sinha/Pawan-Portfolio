@@ -7,16 +7,16 @@ export default function StructuredData() {
     const structuredData = {
       "@context": "https://schema.org",
       "@type": "Person",
-      name: "Bhanu Pratap Singh",
+      name: "Pawan Kumar Sinha",
       jobTitle: "Full Stack Developer",
       description:
-        "A 20 year-old Full Stack Developer from India who loves building efficient, scalable, and intuitive applications.",
-      url: "https://bhanupratap.dev",
+        "A 22 year-old Full Stack Developer from India who loves building efficient, scalable, and intuitive applications.",
+      url: "https://pawansinha.dev",
       image:
         "https://media.licdn.com/dms/image/v2/D4E03AQFoa40cJ2WOMA/profile-displayphoto-scale_400_400/B4EZgKXbIXGoAo-/0/1752520570498?e=1759968000&v=beta&t=cckryikVjD2X7Nvhcmw5I8B1w6sQofIPdTWlpbmkDSU",
-      email: "bhanudahiya8@gmail.com",
+      email: "sinhakrpawan11@gmail.com",
       nationality: "Indian",
-      birthDate: "2005",
+      birthDate: "2003",
       gender: "Male",
       address: {
         "@type": "PostalAddress",
@@ -25,9 +25,9 @@ export default function StructuredData() {
         addressLocality: "New Delhi",
       },
       sameAs: [
-        "https://www.linkedin.com/in/bhanupratap1/",
-        "https://github.com/bhanudahiyaa",
-        "https://twitter.com/iBhanuDahiya",
+        "https://www.linkedin.com/in/pawan-kumar-sinha-0b789b390/",
+        "https://github.com/Pawan11sinha",
+        "https://x.com/sinhakrpawan11",
       ],
       knowsAbout: [
         "Full Stack Development",
@@ -35,49 +35,45 @@ export default function StructuredData() {
         "Node.js",
         "TypeScript",
         "JavaScript",
-        "Python",
         "Web Development",
         "Software Engineering",
         "Portfolio Development",
         "Minimalist Design",
         "Modern Web Design",
-        "Student Portfolio",
-        "Developer Portfolio",
-        "Tech Portfolio",
-        "Professional Portfolio",
+    
       ],
       alumniOf: [
         {
           "@type": "EducationalOrganization",
           name: "Maharaja Agrasen Institute of Technology",
           alternateName: "MAIT",
-          description: "B.Tech in Computer Science",
+          description: "B.Tech in Computer Science Technology",
           url: "https://mait.ac.in",
         },
       ],
-      worksFor: [
-        {
-          "@type": "Organization",
-          name: "Stealth Startup",
-          description: "Founding Engineer",
-        },
-      ],
-      award: [
-        {
-          "@type": "Award",
-          name: "Finalist – Call2Code Hackathon, MUJ",
-          description:
-            "AI‑powered stock market dashboard with multilingual voice commands, real‑time analytics, and sentiment analysis. Selected as a finalist among 100+ teams.",
-          dateAwarded: "2025-04",
-        },
-        {
-          "@type": "Award",
-          name: "Semi‑Finalist – BitBash, NIT Kurukshetra",
-          description:
-            "Developed a real‑world solution under 24‑hour constraints; recognized among the top‑performing teams.",
-          dateAwarded: "2025-03",
-        },
-      ],
+   worksFor: [
+  {
+    "@type": "Organization",
+    name: "ConviSaaS Inc.",
+    description: "User Story Engineer",
+  },
+],
+      // award: [
+      //   {
+      //     "@type": "Award",
+      //     name: "Finalist – Call2Code Hackathon, MUJ",
+      //     description:
+      //       "AI‑powered stock market dashboard with multilingual voice commands, real‑time analytics, and sentiment analysis. Selected as a finalist among 100+ teams.",
+      //     dateAwarded: "2025-04",
+      //   },
+      //   {
+      //     "@type": "Award",
+      //     name: "Semi‑Finalist – BitBash, NIT Kurukshetra",
+      //     description:
+      //       "Developed a real‑world solution under 24‑hour constraints; recognized among the top‑performing teams.",
+      //     dateAwarded: "2025-03",
+      //   },
+      // ],
       hasOccupation: {
         "@type": "Occupation",
         name: "Full Stack Developer",
@@ -87,11 +83,9 @@ export default function StructuredData() {
           "TypeScript",
           "Node.js",
           "JavaScript",
-          "Python",
           "TailwindCSS",
           "Supabase",
           "Firebase",
-          "Streamlit",
         ],
       },
     };
