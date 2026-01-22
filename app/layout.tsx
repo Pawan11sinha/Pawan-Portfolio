@@ -86,7 +86,7 @@ export const metadata: Metadata = {
         "A 22 year-old developer from India who loves building efficient, scalable, and intuitive applications.With over a year of hands-on experience, I work at ConviSaaS Inc.as a User Story Engineer, focusing on building scalable,user-centric SaaS products.",
     images: [
       {
-        url: "https://iili.io/KB9qfG1.png",
+        url: "",
         width: 1200,
         height: 630,
         alt: "Pawan Kumar Sinha - Full Stack Developer Portfolio",
@@ -100,7 +100,7 @@ export const metadata: Metadata = {
     title: "Pawan Kumar Sinha - Full Stack Developer",
     description:
          "A 22 year-old developer from India who loves building efficient, scalable, and intuitive applications.With over a year of hands-on experience, I work at ConviSaaS Inc.as a User Story Engineer, focusing on building scalable,user-centric SaaS products.",
-    images: ["https://iili.io/KB9qfG1.png"],
+    images: [""],
   },
   icons: {
     icon: "https://media.licdn.com/dms/image/v2/D4E03AQFoa40cJ2WOMA/profile-displayphoto-scale_400_400/B4EZgKXbIXGoAo-/0/1752520570498?e=1759968000&v=beta&t=cckryikVjD2X7Nvhcmw5I8B1w6sQofIPdTWlpbmkDSU",
@@ -133,11 +133,11 @@ export const metadata: Metadata = {
     "og:title": "Pawan Kumar Sinha - Full Stack Developer",
     "og:description":
        "A 22 year-old developer from India who loves building efficient, scalable, and intuitive applications.With over a year of hands-on experience, I work at ConviSaaS Inc.as a User Story Engineer, focusing on building scalable,user-centric SaaS products.",
-    "og:image": "https://iili.io/KB9qfG1.png",
+    "og:image": "",
     "twitter:image:alt": "Pawan Kumar Sinha- Full Stack Developer Portfolio",
     "twitter:domain": "pawansinha.dev",
     "twitter:url": "https://pawansinha.dev",
-    "whatsapp:image": "https://iili.io/KB9qfG1.png",
+    "whatsapp:image": "",
     "whatsapp:title": "Pawan Kumar Sinha - Full Stack Developer",
     "whatsapp:description":
       "A 22 year-old Full Stack Developer from India who loves building efficient, scalable, and intuitive applications.",
