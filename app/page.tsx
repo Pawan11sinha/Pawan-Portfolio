@@ -226,7 +226,7 @@ export default function Page() {
                       role="User Story Engineer"
                       period="January 2026 – Present"
                      summary="Responsible for the development, maintenance, and continuous improvement of software products, implementing user stories and delivering technical solutions for ConviSaaS Inc. and its affiliated SaaS platforms."
-                    logoUrl=""
+                    logoUrl="https://ajx-two.vercel.app/convisaas_logo.jpeg"
                     />
                   </SlideInLeft>
 
